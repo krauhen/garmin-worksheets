@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "garmin"
+version = "0.1.0"
+description = "Different garmin jupyter worksheets"
+authors = ["krauhen <henning.krause90@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.6"
+pandas = "^2.2.2"
+jupyter = "^1.0.0"
+jupyterlab = "^4.2.3"
+python-dateutil = "^2.9.0.post0"
+matplotlib = "^3.9.0"
+numpy = "^2.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
