@@ -589,6 +589,20 @@ files = [
 devel = ["colorama", "json-spec", "jsonschema", "pylint", "pytest", "pytest-benchmark", "pytest-cache", "validictory"]
 
 [[package]]
+name = "fitdecode"
+version = "0.10.0"
+description = "FIT file parser and decoder"
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "fitdecode-0.10.0-py3-none-any.whl", hash = "sha256:527dc2e4b0fe45dbe868a2131af0a544cb686f631f608d94e392bcce57b047cf"},
+    {file = "fitdecode-0.10.0.tar.gz", hash = "sha256:1b85d1303c87650c11377a7322757eaa1caf229776bbd5b545591dd6815123e4"},
+]
+
+[package.extras]
+docs = ["sphinx", "sphinx-rtd-theme"]
+
+[[package]]
 name = "fonttools"
 version = "4.53.0"
 description = "Tools to manipulate font files"
@@ -2752,4 +2766,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "3.10.6"
-content-hash = "32c480da37ec354121c1d211fb333c1844c3559d40f6d44917ad8c18617a203a"
+content-hash = "a22994f83d749cb5500690ff72ae01208663efd9d27cfc2aa6b3bd8d16a2884f"
